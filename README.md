@@ -1,5 +1,5 @@
 # Operation-Systems-ex5
-In this task we implemented a stack of strings stored on a server, allowing an unlimited amount of clients to push into the stack, pull out of the stack and look at the stack. All operations are proccessSafe. Iu used 'fcntl' for that.
+In this task we implemented a stack of strings stored on a server, allowing an unlimited amount of clients to push into the stack, pull out of the stack and look at the stack. All operations are proccessSafe. I used 'fcntl' for that.
 We also implemented our own 'malloc' and 'free'.
 ### How To Run
 1. download this repository.
