@@ -1,15 +1,15 @@
-# Operation-Systems-ex4
-In this task we implemented a stack of strings stored on a server, allowing an unlimited amount of clients to push into the stack, pull out of the stack and look at the stack. All operations are threadSafe.
+# Operation-Systems-ex5
+In this task we implemented a stack of strings stored on a server, allowing an unlimited amount of clients to push into the stack, pull out of the stack and look at the stack. All operations are proccessSafe. Iu used 'fcntl' for that.
 We also implemented our own 'malloc' and 'free'.
 ### How To Run
 1. download this repository.
 2. open a terminal in the main folder and run the following command:  
 
 ```
-make all
+make
 ```  
 
-3. to run the threadServer run the following command:  
+3. to run the server run the following command:  
 
 ```
 ./server
